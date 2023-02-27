@@ -33,7 +33,7 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	backdrop-filter: blur(30px);
+	backdrop-filter: blur(60px);
 }
 .jump img {
 	max-width: 80%;
@@ -82,7 +82,7 @@
 	display: flex;
 	justify-content: center;
 	position: absolute;
-	bottom: 0;
+	bottom: 2rem;
 }
 @media screen and (max-width: 1000px) {
 	.gallery {
@@ -120,9 +120,13 @@ h1 {
 	display: none;
 }
 
-.img_down {
-	border: solid 3px white;
+.img_downAll {
+	padding: 0.3rem;
+	border-radius: 1rem;
 }
-.hidden_img {
-	border: none;
+span {
+	position: fixed;
+	top: 8rem;
+	font-size: 30px;
+	color: white;
 }
