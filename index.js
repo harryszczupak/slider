@@ -35,5 +35,3 @@ previous_img.addEventListener('click', () => {
 	}
 	jump_img.src = photo[currentImgIndex].src;
 });
-
-dupa
